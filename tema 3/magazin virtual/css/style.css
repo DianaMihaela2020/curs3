@@ -1,0 +1,56 @@
+/* CSS meniu */
+.meniu ul li{
+    list-style-type: none;
+    display: inline;
+    padding-left:30px;
+    font-size:18px;
+    cursor: pointer;
+}
+.meniu ul a{
+    text-decoration: none;
+    color: black;
+}
+.meniu ul a:hover{
+    color:red;
+    border-bottom:2px solid red;
+}
+.submeniu{
+    background-color: lightskyblue;
+    width:250px;
+    z-index:999;
+    margin-left:90px;
+    position: absolute;
+    display: none;
+}
+.meniu .produse:hover .submeniu{
+    display: block;
+}
+/* CSS Continut  */
+.continut .card{
+    border:1px solid black;
+}
+
+.continut .card p b:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.continut{
+    border-top:2px solid black;
+}
+
+/* CSS footer */
+.footer{
+    border-top:2px solid black;
+}
+
+.contact button{
+    background-color: orange;
+    border:1px solid black;
+    width:100px;
+    height:50px;
+    border-radius:100px;
+}
+.contact button:hover {
+    color:white;
+    cursor:pointer;
+}
